@@ -1,0 +1,6 @@
+framework module TuyaFFmpegWrapper {
+  umbrella header "TuyaFFmpegWrapper.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TuyaSmartCameraKit {
+  umbrella header "TuyaSmartCameraKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TYEncryptImage {
+  umbrella header "TYEncryptImage.h"
+
+  export *
+  module * { export * }
+}

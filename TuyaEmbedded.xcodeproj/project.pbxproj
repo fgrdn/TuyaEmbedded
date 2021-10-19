@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E00E6132703A6160037BE4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00E6122703A6160037BE4D /* AppDelegate.swift */; };
+		1E00E6152703A6160037BE4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00E6142703A6160037BE4D /* SceneDelegate.swift */; };
+		1E00E6172703A6160037BE4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00E6162703A6160037BE4D /* ViewController.swift */; };
+		1E00E61A2703A6160037BE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E00E6182703A6160037BE4D /* Main.storyboard */; };
+		1E00E61C2703A6180037BE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E00E61B2703A6180037BE4D /* Assets.xcassets */; };
+		1E00E61F2703A6180037BE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E00E61D2703A6180037BE4D /* LaunchScreen.storyboard */; };
+		1E550AA9271EC7C8002E7E70 /* TuyaSmartUtil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A8E271EC7C8002E7E70 /* TuyaSmartUtil.xcframework */; };
+		1E550AAA271EC7C8002E7E70 /* TuyaSmartCameraM.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A8F271EC7C8002E7E70 /* TuyaSmartCameraM.xcframework */; };
+		1E550AAB271EC7C8002E7E70 /* TuyaSmartQUIC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A90271EC7C8002E7E70 /* TuyaSmartQUIC.xcframework */; };
+		1E550AAC271EC7C8002E7E70 /* TuyaCameraSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A91271EC7C8002E7E70 /* TuyaCameraSDK.xcframework */; };
+		1E550AAD271EC7C8002E7E70 /* TuyaSmartFeedbackKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A92271EC7C8002E7E70 /* TuyaSmartFeedbackKit.xcframework */; };
+		1E550AAE271EC7C8002E7E70 /* TuyaSmartP2pChannelKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A93271EC7C8002E7E70 /* TuyaSmartP2pChannelKit.xcframework */; };
+		1E550AAF271EC7C8002E7E70 /* TuyaSmartMQTTChannelKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A94271EC7C8002E7E70 /* TuyaSmartMQTTChannelKit.xcframework */; };
+		1E550AB0271EC7C8002E7E70 /* TuyaSmartBaseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A95271EC7C8002E7E70 /* TuyaSmartBaseKit.xcframework */; };
+		1E550AB1271EC7C8002E7E70 /* TuyaSmartDeviceKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A96271EC7C8002E7E70 /* TuyaSmartDeviceKit.xcframework */; };
+		1E550AB2271EC7C8002E7E70 /* TuyaSmartMessageKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A97271EC7C8002E7E70 /* TuyaSmartMessageKit.xcframework */; };
+		1E550AB3271EC7C8002E7E70 /* TuyaSmartBLEMeshKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A98271EC7C8002E7E70 /* TuyaSmartBLEMeshKit.xcframework */; };
+		1E550AB4271EC7C8002E7E70 /* TuyaSmartBLEKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A99271EC7C8002E7E70 /* TuyaSmartBLEKit.xcframework */; };
+		1E550AB5271EC7C8002E7E70 /* TuyaSmartTimerKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A9A271EC7C8002E7E70 /* TuyaSmartTimerKit.xcframework */; };
+		1E550AB6271EC7C8002E7E70 /* TYEncryptImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A9B271EC7C8002E7E70 /* TYEncryptImage.xcframework */; };
+		1E550AB7271EC7C8002E7E70 /* TYBluetooth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A9C271EC7C8002E7E70 /* TYBluetooth.xcframework */; };
+		1E550AB8271EC7C8002E7E70 /* TuyaP2PSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A9D271EC7C8002E7E70 /* TuyaP2PSDK.xcframework */; };
+		1E550AB9271EC7C8002E7E70 /* TuyaSmartNetworkKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A9E271EC7C8002E7E70 /* TuyaSmartNetworkKit.xcframework */; };
+		1E550ABA271EC7C8002E7E70 /* TuyaSmartSocketChannelKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550A9F271EC7C8002E7E70 /* TuyaSmartSocketChannelKit.xcframework */; };
+		1E550ABB271EC7C8002E7E70 /* TuyaSmartActivatorCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA0271EC7C8002E7E70 /* TuyaSmartActivatorCoreKit.xcframework */; };
+		1E550ABC271EC7C8002E7E70 /* TuyaAudioEngineSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA1271EC7C8002E7E70 /* TuyaAudioEngineSDK.xcframework */; };
+		1E550ABD271EC7C8002E7E70 /* TuyaSmartDeviceCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA2271EC7C8002E7E70 /* TuyaSmartDeviceCoreKit.xcframework */; };
+		1E550ABE271EC7C8002E7E70 /* TuyaSmartCameraBase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA3271EC7C8002E7E70 /* TuyaSmartCameraBase.xcframework */; };
+		1E550ABF271EC7C8002E7E70 /* TuyaSmartCameraKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA4271EC7C8002E7E70 /* TuyaSmartCameraKit.xcframework */; };
+		1E550AC0271EC7C8002E7E70 /* TuyaFFmpegWrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA5271EC7C8002E7E70 /* TuyaFFmpegWrapper.xcframework */; };
+		1E550AC1271EC7C8002E7E70 /* TuyaSmartDefaultPanelKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA6271EC7C8002E7E70 /* TuyaSmartDefaultPanelKit.xcframework */; };
+		1E550AC2271EC7C8002E7E70 /* TuyaSmartActivatorKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA7271EC7C8002E7E70 /* TuyaSmartActivatorKit.xcframework */; };
+		1E550AC3271EC7C8002E7E70 /* TuyaSmartSceneKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550AA8271EC7C8002E7E70 /* TuyaSmartSceneKit.xcframework */; };
+		1E550AC5271EC837002E7E70 /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 1E550AC4271EC837002E7E70 /* t_s.bmp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E00E6532703A7870037BE4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E00E60F2703A6160037BE4D /* TuyaEmbedded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuyaEmbedded.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E00E6122703A6160037BE4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E00E6142703A6160037BE4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E00E6162703A6160037BE4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E00E6192703A6160037BE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E00E61B2703A6180037BE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E00E61E2703A6180037BE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E00E6202703A6180037BE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E550A8E271EC7C8002E7E70 /* TuyaSmartUtil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartUtil.xcframework; sourceTree = "<group>"; };
+		1E550A8F271EC7C8002E7E70 /* TuyaSmartCameraM.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartCameraM.xcframework; sourceTree = "<group>"; };
+		1E550A90271EC7C8002E7E70 /* TuyaSmartQUIC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartQUIC.xcframework; sourceTree = "<group>"; };
+		1E550A91271EC7C8002E7E70 /* TuyaCameraSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaCameraSDK.xcframework; sourceTree = "<group>"; };
+		1E550A92271EC7C8002E7E70 /* TuyaSmartFeedbackKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartFeedbackKit.xcframework; sourceTree = "<group>"; };
+		1E550A93271EC7C8002E7E70 /* TuyaSmartP2pChannelKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartP2pChannelKit.xcframework; sourceTree = "<group>"; };
+		1E550A94271EC7C8002E7E70 /* TuyaSmartMQTTChannelKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartMQTTChannelKit.xcframework; sourceTree = "<group>"; };
+		1E550A95271EC7C8002E7E70 /* TuyaSmartBaseKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartBaseKit.xcframework; sourceTree = "<group>"; };
+		1E550A96271EC7C8002E7E70 /* TuyaSmartDeviceKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartDeviceKit.xcframework; sourceTree = "<group>"; };
+		1E550A97271EC7C8002E7E70 /* TuyaSmartMessageKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartMessageKit.xcframework; sourceTree = "<group>"; };
+		1E550A98271EC7C8002E7E70 /* TuyaSmartBLEMeshKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartBLEMeshKit.xcframework; sourceTree = "<group>"; };
+		1E550A99271EC7C8002E7E70 /* TuyaSmartBLEKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartBLEKit.xcframework; sourceTree = "<group>"; };
+		1E550A9A271EC7C8002E7E70 /* TuyaSmartTimerKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartTimerKit.xcframework; sourceTree = "<group>"; };
+		1E550A9B271EC7C8002E7E70 /* TYEncryptImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TYEncryptImage.xcframework; sourceTree = "<group>"; };
+		1E550A9C271EC7C8002E7E70 /* TYBluetooth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TYBluetooth.xcframework; sourceTree = "<group>"; };
+		1E550A9D271EC7C8002E7E70 /* TuyaP2PSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaP2PSDK.xcframework; sourceTree = "<group>"; };
+		1E550A9E271EC7C8002E7E70 /* TuyaSmartNetworkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartNetworkKit.xcframework; sourceTree = "<group>"; };
+		1E550A9F271EC7C8002E7E70 /* TuyaSmartSocketChannelKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartSocketChannelKit.xcframework; sourceTree = "<group>"; };
+		1E550AA0271EC7C8002E7E70 /* TuyaSmartActivatorCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartActivatorCoreKit.xcframework; sourceTree = "<group>"; };
+		1E550AA1271EC7C8002E7E70 /* TuyaAudioEngineSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaAudioEngineSDK.xcframework; sourceTree = "<group>"; };
+		1E550AA2271EC7C8002E7E70 /* TuyaSmartDeviceCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartDeviceCoreKit.xcframework; sourceTree = "<group>"; };
+		1E550AA3271EC7C8002E7E70 /* TuyaSmartCameraBase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartCameraBase.xcframework; sourceTree = "<group>"; };
+		1E550AA4271EC7C8002E7E70 /* TuyaSmartCameraKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartCameraKit.xcframework; sourceTree = "<group>"; };
+		1E550AA5271EC7C8002E7E70 /* TuyaFFmpegWrapper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaFFmpegWrapper.xcframework; sourceTree = "<group>"; };
+		1E550AA6271EC7C8002E7E70 /* TuyaSmartDefaultPanelKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartDefaultPanelKit.xcframework; sourceTree = "<group>"; };
+		1E550AA7271EC7C8002E7E70 /* TuyaSmartActivatorKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartActivatorKit.xcframework; sourceTree = "<group>"; };
+		1E550AA8271EC7C8002E7E70 /* TuyaSmartSceneKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TuyaSmartSceneKit.xcframework; sourceTree = "<group>"; };
+		1E550AC4271EC837002E7E70 /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E00E60C2703A6160037BE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E550ABA271EC7C8002E7E70 /* TuyaSmartSocketChannelKit.xcframework in Frameworks */,
+				1E550AB1271EC7C8002E7E70 /* TuyaSmartDeviceKit.xcframework in Frameworks */,
+				1E550AB0271EC7C8002E7E70 /* TuyaSmartBaseKit.xcframework in Frameworks */,
+				1E550AB3271EC7C8002E7E70 /* TuyaSmartBLEMeshKit.xcframework in Frameworks */,
+				1E550AC1271EC7C8002E7E70 /* TuyaSmartDefaultPanelKit.xcframework in Frameworks */,
+				1E550ABD271EC7C8002E7E70 /* TuyaSmartDeviceCoreKit.xcframework in Frameworks */,
+				1E550AAB271EC7C8002E7E70 /* TuyaSmartQUIC.xcframework in Frameworks */,
+				1E550AB8271EC7C8002E7E70 /* TuyaP2PSDK.xcframework in Frameworks */,
+				1E550AB7271EC7C8002E7E70 /* TYBluetooth.xcframework in Frameworks */,
+				1E550ABE271EC7C8002E7E70 /* TuyaSmartCameraBase.xcframework in Frameworks */,
+				1E550AB2271EC7C8002E7E70 /* TuyaSmartMessageKit.xcframework in Frameworks */,
+				1E550AC2271EC7C8002E7E70 /* TuyaSmartActivatorKit.xcframework in Frameworks */,
+				1E550ABF271EC7C8002E7E70 /* TuyaSmartCameraKit.xcframework in Frameworks */,
+				1E550AA9271EC7C8002E7E70 /* TuyaSmartUtil.xcframework in Frameworks */,
+				1E550AAE271EC7C8002E7E70 /* TuyaSmartP2pChannelKit.xcframework in Frameworks */,
+				1E550AC3271EC7C8002E7E70 /* TuyaSmartSceneKit.xcframework in Frameworks */,
+				1E550AC0271EC7C8002E7E70 /* TuyaFFmpegWrapper.xcframework in Frameworks */,
+				1E550AB4271EC7C8002E7E70 /* TuyaSmartBLEKit.xcframework in Frameworks */,
+				1E550AB6271EC7C8002E7E70 /* TYEncryptImage.xcframework in Frameworks */,
+				1E550AAF271EC7C8002E7E70 /* TuyaSmartMQTTChannelKit.xcframework in Frameworks */,
+				1E550AB5271EC7C8002E7E70 /* TuyaSmartTimerKit.xcframework in Frameworks */,
+				1E550ABC271EC7C8002E7E70 /* TuyaAudioEngineSDK.xcframework in Frameworks */,
+				1E550AAC271EC7C8002E7E70 /* TuyaCameraSDK.xcframework in Frameworks */,
+				1E550AB9271EC7C8002E7E70 /* TuyaSmartNetworkKit.xcframework in Frameworks */,
+				1E550AAA271EC7C8002E7E70 /* TuyaSmartCameraM.xcframework in Frameworks */,
+				1E550ABB271EC7C8002E7E70 /* TuyaSmartActivatorCoreKit.xcframework in Frameworks */,
+				1E550AAD271EC7C8002E7E70 /* TuyaSmartFeedbackKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E00E6062703A6160037BE4D = {
+			isa = PBXGroup;
+			children = (
+				1E00E6272703A6220037BE4D /* Frameworks */,
+				1E00E6112703A6160037BE4D /* TuyaEmbedded */,
+				1E00E6102703A6160037BE4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E00E6102703A6160037BE4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E00E60F2703A6160037BE4D /* TuyaEmbedded.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E00E6112703A6160037BE4D /* TuyaEmbedded */ = {
+			isa = PBXGroup;
+			children = (
+				1E550AC4271EC837002E7E70 /* t_s.bmp */,
+				1E00E6122703A6160037BE4D /* AppDelegate.swift */,
+				1E00E6142703A6160037BE4D /* SceneDelegate.swift */,
+				1E00E6162703A6160037BE4D /* ViewController.swift */,
+				1E00E6182703A6160037BE4D /* Main.storyboard */,
+				1E00E61B2703A6180037BE4D /* Assets.xcassets */,
+				1E00E61D2703A6180037BE4D /* LaunchScreen.storyboard */,
+				1E00E6202703A6180037BE4D /* Info.plist */,
+			);
+			path = TuyaEmbedded;
+			sourceTree = "<group>";
+		};
+		1E00E6272703A6220037BE4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E550AA1271EC7C8002E7E70 /* TuyaAudioEngineSDK.xcframework */,
+				1E550A91271EC7C8002E7E70 /* TuyaCameraSDK.xcframework */,
+				1E550AA5271EC7C8002E7E70 /* TuyaFFmpegWrapper.xcframework */,
+				1E550A9D271EC7C8002E7E70 /* TuyaP2PSDK.xcframework */,
+				1E550AA0271EC7C8002E7E70 /* TuyaSmartActivatorCoreKit.xcframework */,
+				1E550AA7271EC7C8002E7E70 /* TuyaSmartActivatorKit.xcframework */,
+				1E550A95271EC7C8002E7E70 /* TuyaSmartBaseKit.xcframework */,
+				1E550A99271EC7C8002E7E70 /* TuyaSmartBLEKit.xcframework */,
+				1E550A98271EC7C8002E7E70 /* TuyaSmartBLEMeshKit.xcframework */,
+				1E550AA3271EC7C8002E7E70 /* TuyaSmartCameraBase.xcframework */,
+				1E550AA4271EC7C8002E7E70 /* TuyaSmartCameraKit.xcframework */,
+				1E550A8F271EC7C8002E7E70 /* TuyaSmartCameraM.xcframework */,
+				1E550AA6271EC7C8002E7E70 /* TuyaSmartDefaultPanelKit.xcframework */,
+				1E550AA2271EC7C8002E7E70 /* TuyaSmartDeviceCoreKit.xcframework */,
+				1E550A96271EC7C8002E7E70 /* TuyaSmartDeviceKit.xcframework */,
+				1E550A92271EC7C8002E7E70 /* TuyaSmartFeedbackKit.xcframework */,
+				1E550A97271EC7C8002E7E70 /* TuyaSmartMessageKit.xcframework */,
+				1E550A94271EC7C8002E7E70 /* TuyaSmartMQTTChannelKit.xcframework */,
+				1E550A9E271EC7C8002E7E70 /* TuyaSmartNetworkKit.xcframework */,
+				1E550A93271EC7C8002E7E70 /* TuyaSmartP2pChannelKit.xcframework */,
+				1E550A90271EC7C8002E7E70 /* TuyaSmartQUIC.xcframework */,
+				1E550AA8271EC7C8002E7E70 /* TuyaSmartSceneKit.xcframework */,
+				1E550A9F271EC7C8002E7E70 /* TuyaSmartSocketChannelKit.xcframework */,
+				1E550A9A271EC7C8002E7E70 /* TuyaSmartTimerKit.xcframework */,
+				1E550A8E271EC7C8002E7E70 /* TuyaSmartUtil.xcframework */,
+				1E550A9C271EC7C8002E7E70 /* TYBluetooth.xcframework */,
+				1E550A9B271EC7C8002E7E70 /* TYEncryptImage.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E00E60E2703A6160037BE4D /* TuyaEmbedded */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E00E6232703A6180037BE4D /* Build configuration list for PBXNativeTarget "TuyaEmbedded" */;
+			buildPhases = (
+				1E00E60B2703A6160037BE4D /* Sources */,
+				1E00E60C2703A6160037BE4D /* Frameworks */,
+				1E00E60D2703A6160037BE4D /* Resources */,
+				1E00E6532703A7870037BE4D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuyaEmbedded;
+			productName = TuyaEmbedded;
+			productReference = 1E00E60F2703A6160037BE4D /* TuyaEmbedded.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E00E6072703A6160037BE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1E00E60E2703A6160037BE4D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 1E00E60A2703A6160037BE4D /* Build configuration list for PBXProject "TuyaEmbedded" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E00E6062703A6160037BE4D;
+			productRefGroup = 1E00E6102703A6160037BE4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E00E60E2703A6160037BE4D /* TuyaEmbedded */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E00E60D2703A6160037BE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E00E61F2703A6180037BE4D /* LaunchScreen.storyboard in Resources */,
+				1E00E61C2703A6180037BE4D /* Assets.xcassets in Resources */,
+				1E550AC5271EC837002E7E70 /* t_s.bmp in Resources */,
+				1E00E61A2703A6160037BE4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E00E60B2703A6160037BE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E00E6172703A6160037BE4D /* ViewController.swift in Sources */,
+				1E00E6132703A6160037BE4D /* AppDelegate.swift in Sources */,
+				1E00E6152703A6160037BE4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E00E6182703A6160037BE4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E00E6192703A6160037BE4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E00E61D2703A6180037BE4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E00E61E2703A6180037BE4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E00E6212703A6180037BE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E00E6222703A6180037BE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E00E6242703A6180037BE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75BJY7L42F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = TuyaEmbedded/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/TuyaSmartBaseKit.framework/TuyaSmartBaseKit\"",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/TuyaSmartMQTTChannelKit.framework/TuyaSmartMQTTChannelKit\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intercompex.TuyaEmbedded;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1E00E6252703A6180037BE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75BJY7L42F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = TuyaEmbedded/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/TuyaSmartBaseKit.framework/TuyaSmartBaseKit\"",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/TuyaSmartMQTTChannelKit.framework/TuyaSmartMQTTChannelKit\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intercompex.TuyaEmbedded;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E00E60A2703A6160037BE4D /* Build configuration list for PBXProject "TuyaEmbedded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E00E6212703A6180037BE4D /* Debug */,
+				1E00E6222703A6180037BE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E00E6232703A6180037BE4D /* Build configuration list for PBXNativeTarget "TuyaEmbedded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E00E6242703A6180037BE4D /* Debug */,
+				1E00E6252703A6180037BE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E00E6072703A6160037BE4D /* Project object */;
+}

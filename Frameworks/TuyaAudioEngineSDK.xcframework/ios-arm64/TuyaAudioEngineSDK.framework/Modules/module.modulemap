@@ -1,0 +1,6 @@
+framework module TuyaAudioEngineSDK {
+  umbrella header "TuyaAudioEngineSDK.h"
+
+  export *
+  module * { export * }
+}

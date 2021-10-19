@@ -1,0 +1,6 @@
+framework module TuyaSmartP2pChannelKit {
+  umbrella header "TuyaSmartP2pChannelKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

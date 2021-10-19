@@ -1,0 +1,6 @@
+framework module TuyaP2PSDK {
+  umbrella header "TuyaP2PSDK.h"
+
+  export *
+  module * { export * }
+}

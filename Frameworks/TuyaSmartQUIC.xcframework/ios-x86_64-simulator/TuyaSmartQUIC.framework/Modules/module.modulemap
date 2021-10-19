@@ -1,0 +1,6 @@
+framework module TuyaSmartQUIC {
+  umbrella header "TuyaSmartQUIC.h"
+
+  export *
+  module * { export * }
+}
